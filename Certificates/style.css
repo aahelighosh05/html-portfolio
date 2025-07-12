@@ -1,0 +1,55 @@
+/* Certificates Page Container */
+.navbar {
+  background-color: #555879;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.cert-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.cert-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Certificate Grid */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.cert-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.cert-grid img:hover {
+  transform: scale(1.02);
+}

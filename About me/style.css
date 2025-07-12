@@ -1,0 +1,88 @@
+/* Inherit global styles and navbar from previous pages */
+.navbar {
+  background-color: #555879;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.about-main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.about-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.about-section p,
+.about-section li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.9rem;
+}
